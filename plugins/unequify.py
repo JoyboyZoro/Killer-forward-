@@ -75,4 +75,4 @@ async def unequify(client, message):
            await bot.delete_messages(chat_id, DUPLICATE)
            deleted += 100
            await sts.edit(Translation.DUPLICATE_TEXT.format(total, deleted, "ᴘʀᴏɢʀᴇssɪɴɢ"), reply_markup=CANCEL_BTN)
-           DUPLICATE = []
+                DUPLICATE = []
