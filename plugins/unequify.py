@@ -65,7 +65,7 @@ async def unequify(client, message):
         file = message.document
         file_id = file.file_id  # Use an alternative way to get the file ID
         if file_id in MESSAGES:
-        DUPLICATE.append(message.id)
+          DUPLICATE.append(message.id)
      else:
        MESSAGES.append(file_id)
        total += 1
