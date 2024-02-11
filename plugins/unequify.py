@@ -62,8 +62,8 @@ async def unequify(client, message):
        if temp.CANCEL.get(user_id) == True:
         await sts.edit(Translation.DUPLICATE_TEXT.format(total, deleted, "ᴄᴀɴᴄᴇʟʟᴇᴅ"), reply_markup=COMPLETED_BTN)
         return await bot.stop()
-         file = message.document
-         file_id = file.file_id  # Use an alternative way to get the file ID
+        file = message.document
+        file_id = file.file_id  # Use an alternative way to get the file ID
          if file_id in MESSAGES:
            DUPLICATE.append(message.id)
          else:
