@@ -1,13 +1,13 @@
 echo "Cloning Repo...."
 if [ -z $BRANCH ]; then
   echo "Cloning main branch...."
-  git clone https://github.com/tgaibotz/FORWARD-PRO
+  git clone https://github.com/JoyboyZoro/Killer-forward- /fwdbot
 else
   echo "Cloning $BRANCH branch...."
-  git clone https://github.com/tgaibotz/FORWARD-PRO -b $BRANCH /fwdbot
+  git clone https://github.com/JoyboyZoro/Killer-forward- -b $BRANCH /fwdbot
 fi
 
-cd FORWARD-PRO  # Changed directory to the cloned repository
+cd /fwdbot  # Changed directory to the cloned repository
 
 # Ensure pip3 is installed
 if ! command -v pip3 &>/dev/null; then
