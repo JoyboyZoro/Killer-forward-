@@ -80,9 +80,9 @@ async def unequify(client, message):
                                   await bot.delete_messages(chat_id, DUPLICATE)
                                   deleted += len(DUPLICATE)
                                 except Exception as e:
-                                temp.lock[user_id] = False 
-                                await sts.edit(f"**ERROR**\n`{e}`")
-                                return await bot.stop()
-                                temp.lock[user_id] = False
-                                await sts.edit(Translation.DUPLICATE_TEXT.format(total, deleted, "ᴄᴏᴍᴘʟᴇᴛᴇᴅ"), reply_markup=COMPLETED_BTN)
-                                await bot.stop()
+                                  temp.lock[user_id] = False 
+                                  await sts.edit(f"**ERROR**\n`{e}`")
+                                  return await bot.stop()
+                                  temp.lock[user_id] = False
+                                  await sts.edit(Translation.DUPLICATE_TEXT.format(total, deleted, "ᴄᴏᴍᴘʟᴇᴛᴇᴅ"), reply_markup=COMPLETED_BTN)
+                                  await bot.stop()
