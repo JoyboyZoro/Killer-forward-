@@ -49,14 +49,14 @@ async def unequify(client, message):
                 try:
                   k = await bot.send_message(chat_id, text="testing")
                   await k.delete()
-                  except:
-                    await sts.edit(f"**please make your [userbot](t.me/{_bot['username']}) admin in target chat with full permissions**")
-                    return await bot.stop()
-                    MESSAGES = []
-                    DUPLICATE = []
-                    total=deleted=0
-                    temp.lock[user_id] = True
-                    try:
+                except:
+                  await sts.edit(f"**please make your [userbot](t.me/{_bot['username']}) admin in target chat with full permissions**")
+                  return await bot.stop()
+                  MESSAGES = []
+                  DUPLICATE = []
+                  total=deleted=0
+                  temp.lock[user_id] = True
+                  try:
                       await sts.edit(Translation.DUPLICATE_TEXT.format(total, deleted, "ᴘʀᴏɢʀᴇssɪɴɢ"), reply_markup=CANCEL_BTN)
                       async for message in bot.search_messages(chat_id=chat_id, filter="document"):
                         if temp.CANCEL.get(user_id) == True:
