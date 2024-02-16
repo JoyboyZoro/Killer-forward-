@@ -2,9 +2,9 @@ import os
 from config import Config
 
 class Translation(object):
-  START_TXT = """<b>ʜɪ {}</b>
-<i>ɪ'ᴍ ᴀ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀᴜᴛᴏ ғᴏʀᴡᴀʀᴅ ʙᴏᴛ
-ɪ ᴄᴀɴ ғᴏʀᴡᴀʀᴅ ᴀʟʟ ᴍᴇssᴀɢᴇ ғʀᴏᴍ ᴏɴᴇ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀɴᴏᴛʜᴇʀ ᴄʜᴀɴɴᴇʟ</i>
+  START_TXT = """<b>Hi {}</b>
+<i>I'm a Advanced Auto Forward Bot
+I can forward all message from one channel to another channel</i>
 **Click help button to know More about me**"""
   HELP_TXT = """<b><u>🔆 HELP</b></u>
 
@@ -36,8 +36,8 @@ class Translation(object):
   ABOUT_TXT = """
 ╔════❰ ғᴏʀᴡᴀʀᴅ ʙᴏᴛ ❱═❍⊱❁۪۪
 ║╭━━━━━━━━━━━━━━━➣
-║┣⪼📃ʙᴏᴛ : [Fᴏʀᴡᴀʀᴅ Bᴏᴛ](https://t.me/MR_Forward_Robot)
-║┣⪼👦Cʀᴇᴀᴛᴏʀ : [「◥꧁ད ༗ᏦᎥᏁᏀ༗ ཌ꧂◤」](https://t.me/Mrkiller_1109)
+║┣⪼📃ʙᴏᴛ : [Fᴏʀᴡᴀʀᴅ Bᴏᴛ](https://t.me/kr_forward_bot)
+║┣⪼👦Cʀᴇᴀᴛᴏʀ : [『𝐓𝐆』 ཌ𑫞ᴀᴘᴘƴད°ⲃꮐꮇ°ツ](https://t.me/tamil_kid)
 ║┣⪼📡Hᴏsᴛᴇᴅ ᴏɴ : Hᴇʀᴏᴋᴜ
 ║┣⪼🗣️Lᴀɴɢᴜᴀɢᴇ : Pʏᴛʜᴏɴ3
 ║┣⪼📚Lɪʙʀᴀʀʏ : Pʏʀᴏɢʀᴀᴍ Asʏɴᴄɪᴏ 2.0.0 
