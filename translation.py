@@ -2,10 +2,12 @@ import os
 from config import Config
 
 class Translation(object):
+  
   START_TXT = """<b>Hi {}</b>
 <i>I'm a Advanced Auto Forward Bot
 I can forward all message from one channel to another channel</i>
 **Click help button to know More about me**"""
+  
   HELP_TXT = """<b><u>🔆 HELP</b></u>
 
 <u>**📚 Available commands:**</u>
