@@ -1,11 +1,12 @@
 import os
 import sys
-import asyncio 
+import asyncio
+import pyrogram.types
 from database import db
 from config import Config, temp
 from translation import Translation
 from pyrogram import Client, filters
-from pyrogram.types import
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaDocument
 
 main_buttons = [[
         InlineKeyboardButton('📜 Support Group', url='https://t.me/HP_Bot_discuss_group'),
