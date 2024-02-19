@@ -1,16 +1,15 @@
 import os
 import sys
-import asyncio
-import pyrogram.types
+import asyncio 
 from database import db
 from config import Config, temp
 from translation import Translation
 from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaDocument
 
 main_buttons = [[
-        InlineKeyboardButton('📜 Support Group', url='https://t.me/HP_Bot_discuss_group'),
-        InlineKeyboardButton('📢 Update Channel ', url='https://t.me/Hpbot_update')
+        InlineKeyboardButton('📜 Support Group', url='https://t.me/venombotupdates'),
+        InlineKeyboardButton('📢 Update Channel ', url='https://t.me/venombotsupport')
         ],[
         InlineKeyboardButton('❗️Help', callback_data='help') 
         ],[
